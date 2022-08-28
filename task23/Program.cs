@@ -14,7 +14,7 @@ string cube()
     while (i <= N )             
     {                 
         res = res + i*i*i+", ";                 
-        i=i+1;                               
+        i++;                               
     }     
     return res; 
     }
