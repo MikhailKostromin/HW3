@@ -5,29 +5,26 @@
 
 string cube()  
 {     
-    Console.WriteLine("Введите положительное число ");             
+    Console.WriteLine("Введите число ");             
     int N = Convert.ToInt32(Console.ReadLine());             
     int i=1;             
     string res = string.Empty;   //пустая строка             
-    if (N>0);
-    {
-    while (i <= N )             
+    
+       while (i <= N )             
     {                 
         res = res + i*i*i+", ";                 
         i++;                               
     }     
     return res; 
-    }
-     
-}   
-
+ }
+ 
 try 
 {    
     Console.WriteLine(cube ()); 
 } 
 catch 
 {     
-    Console.WriteLine("Необходимо вводить положительные целые числа");     
+    Console.WriteLine("Необходимо вводить целые числа");     
 }
 
 
