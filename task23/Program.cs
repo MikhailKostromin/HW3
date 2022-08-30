@@ -20,7 +20,7 @@ string cube()
  
 try 
 {    
-    Console.WriteLine(cube ()); 
+    Console.WriteLine($"Таблица кубов чисел " +cube ()); 
 } 
 catch 
 {     
