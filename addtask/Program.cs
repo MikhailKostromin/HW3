@@ -17,8 +17,6 @@ while  ( sum != 0)
  N = Convert.ToInt32(Console.ReadLine());
  sum += N;
  sum2 += Math.Pow (N,2);
-if (sum == 0) break;
-    
 }
 
 Console.WriteLine("Сумма квадратов заданных чисел = "+sum2);
